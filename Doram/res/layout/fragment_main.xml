@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText android:id="@+id/edtusername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username" />
+
+	<EditText android:id="@+id/edtpassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password" 
+        android:inputType="textPassword"/> 
+
+    <TextView
+        android:id="@+id/txtlocation"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:text="@string/hello_world" />
+ 
+    <Button 
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/buttonCreateUser" 
+	    android:onClick="createUser" />
+    
+	<Button 
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/button_send" 
+	    android:onClick="sendMessage"
+	    android:layout_gravity="right|bottom" />
+ 
+</LinearLayout>
+

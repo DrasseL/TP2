@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" 
+    tools:context="com.doram.NewUser$PlaceholderFragment"
+    android:orientation="vertical">
+    
+    <TextView
+        android:id="@+id/txtlocation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="@string/createUser" />
+    
+    <EditText android:id="@+id/edtusername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="@string/username" />
+    
+    <EditText android:id="@+id/edtpassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="@string/password" /> 
+        
+    <TextView
+        android:id="@+id/txtFactions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:paddingTop="25dp"
+        android:text="@string/chooseFaction" />
+    
+    <RadioGroup 
+        android:id="@+id/radioFaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+    <RadioButton android:id="@+id/radioNation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/radioNation"
+        android:onClick="radioClick" />
+    
+    <RadioButton android:id="@+id/radioRebellion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/radioRebellion" 
+        android:onClick="radioClick" />
+    
+    </RadioGroup>
+    
+    <Button 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/buttonConfirmUser" 
+	    android:onClick="saveUser" />
+    
+    <Button 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/buttonViewUsers" 
+	    android:onClick="viewUsers" />
+    
+    <Button 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/buttonCreateRank" 
+	    android:onClick="createRank" />
+    
+    <Button 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/buttonViewRank" 
+	    android:onClick="viewRank" />
+</LinearLayout>

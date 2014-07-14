@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Doram</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="empty">.</string>
+    <string name="addFaction">addFaction</string>
+    <string name="getFaction">getFaction</string>
+    <string name="getAllFactions">getAllFactions</string>
+    <string name="deleteFaction">"deleteFaction"</string>
+    <string name="buttonCreateUser">New Account</string>
+    <string name="buttonConfirmUser">Confirm</string>
+    <string name="buttonViewUsers">ViewUsers</string>
+    <string name="buttonCreateRank">CreateRank</string>
+    <string name="buttonViewRank">ViewRank</string>
+    <string name="createUser">To create your account, you must enter a Username and a password.</string>
+    <string name="title_activity_new_user">NewUser</string>
+    <string name="radioNation">Nation</string>
+    <string name="radioRebellion">Rebellion</string>
+    <string name="chooseFaction">You have to choose which Faction you want to be in.</string>
+    
+
+</resources>
